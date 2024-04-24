@@ -1,0 +1,760 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/*!INDEX*/
+
+
+header {
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+}
+
+header img {
+    width: 200px;
+    height: 80px;
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+
+
+}
+
+.color-nav {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.color-opciones {
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff;
+    margin: 15px;
+
+}
+
+.nav-link:hover {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-radius: 20px;
+
+}
+
+.color-boton {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.navbar-toggler-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px #ffffff solid;
+    border-radius: 10px;
+}
+
+/*MAIN*/
+.hero {
+    background-image: url(../images/logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: calc(100vh - 160px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    background-color: #00000091;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    border: 3px solid #ffffff;
+    padding: 0px 60px 0px 60px;
+
+}
+
+.hero p {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.informate {
+    background-color: #656464;
+    color: #000000;
+    text-align: center;
+    display: flex;
+}
+
+.informate div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 7px 0 7px;
+}
+
+.informate div h2 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.informate div p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+}
+
+.informate img {
+    align-self: center;
+    width: 350px;
+    height: 230px;
+    margin: 25px;
+}
+
+.descripcion {
+    background-color: #656464;
+    color: #000000;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.descripcion div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 7px 0 15px;
+}
+
+.descripcion div p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+}
+
+.descripcion img {
+    align-self: center;
+    width: 400px;
+    height: 230px;
+    margin: 15px;
+}
+
+
+
+.productos .productos-tarjetas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    
+}
+
+
+
+.productos .productos-tarjetas div {
+
+    border: 2px #000000 solid;
+    width: 200px;
+    height: 315px;
+    background-color: #656464;
+    text-align: center;
+    margin: 30px 70px 30px 70px;
+    box-shadow: 0 0 10px 5px;
+}
+
+.productos .productos-tarjetas div img {
+    border-bottom: 2px #000000 solid;
+    width: 195px;
+    height: 200px;
+    background-color: #ffffff;
+    object-fit: contain;
+}
+
+.productos h2 {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+.productos .productos-tarjetas div h3 {
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.productos .productos-tarjetas div a {
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 8px;
+    margin: top 10px;
+    ;
+}
+
+
+
+/*FOOTER*/
+footer {
+    background-color: #000000;
+    height: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+footer .footer-parrafo {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+footer img {
+    width: 200px;
+    height: 80px;
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+footer nav ul a img {
+    width: 75px;
+    height: 75px;
+
+}
+
+
+footer .footer-adress {
+    color: #ffffff;
+    text-align: right;
+
+}
+
+
+
+
+
+/*!NOSOTROS*/
+
+.informate h1 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.descripcion div iframe {
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+/*!PRODUCTOS Y ACCSESORIOS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!CONTACTO*/
+
+
+.contacto {
+
+    background-color: #656464;
+
+    font-size: 30px;
+    color: #000000;
+
+
+}
+
+.contacto p {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 20px 0 20px;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.formulario {
+
+    background-color: #b9b7b7;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    font-size: 20px;
+    margin: 25px 50px 50px 50px;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .9);
+    grid-template-areas:
+        "nombre apellido info"
+        "genero celular info"
+        "departamento email info"
+        "comentario comentario info"
+        "enviar enviar info";
+}
+
+.formulario label {
+    font-size: 20px;
+}
+
+.formulario-nombre {
+    grid-area: nombre;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-apellido {
+    grid-area: apellido;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-genero {
+    grid-area: genero;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-cel {
+    grid-area: celular;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-depto {
+    grid-area: departamento;
+}
+
+.formulario-email {
+    grid-area: email;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-coment {
+    grid-area: comentario;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-enviar {
+    grid-area: enviar;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.formulario div {
+    margin: 15px;
+}
+
+.formulario input:not(.formulario-genero input) {
+    width: 300px;
+    height: 30px;
+}
+
+.formulario div div label {
+    margin: 0 20px 0 20px;
+}
+
+
+.formulario .formulario-coment {
+
+    grid-area: comentario;
+}
+
+.formulario .formulario-coment textarea {
+    width: 500px;
+    height: 100px;
+}
+
+.formulario-info {
+    grid-area: info;
+    background-color: #000000;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+.formulario-info h2 {
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.formulario-info div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario-info div p {
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.formulario-info div iframe {
+    width: 250px;
+    height: 200px;
+}
+
+.formulario-info ul {
+    padding: 0;
+    list-style: none;
+    margin: 20px;
+
+}
+
+.formulario-info ul li {
+    margin: 20px;
+}
+
+.formulario-info ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width:1130px) {
+    .formulario {
+
+        background-color: #b9b7b7;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        font-size: 20px;
+        margin: 25px 50px 50px 50px;
+        box-shadow: 0 0 20px 0 rgba(255, 255, 255, .9);
+        grid-template-areas:
+            "nombre apellido"
+            "genero celular"
+            "departamento email"
+            "comentario comentario"
+            "enviar enviar"
+            "info info";
+    }
+
+    .formulario-info div iframe {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    header {
+        position: static;
+
+    }
+
+    .informate {
+        flex-direction: column;
+    }
+
+    .informate img {
+        width: 400px;
+        order: 1;
+    }
+
+    .descripcion {
+        flex-direction: column;
+    }
+
+    .descripcion img {
+        width: 400px;
+        order: 1;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:880px) {
+    footer nav {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+
+    }
+}
+
+@media screen and (max-width:750px) {
+    .formulario {
+
+        background-color: #b9b7b7;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        font-size: 20px;
+        margin: 25px 50px 50px 50px;
+        box-shadow: 0 0 20px 0 rgba(255, 255, 255, .9);
+        grid-template-areas:
+            "nombre"
+            "apellido"
+            "genero"
+            "celular"
+            "departamento"
+            "email"
+            "comentario"
+            "enviar"
+            "info";
+    }
+
+    .formulario-info div iframe {
+        width: 450px;
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width: 690px) {
+    .hero h1 {
+        font-size: 25px;
+        padding: 15px;
+    }
+
+}
+
+
+@media screen and (max-width:650px) {
+    header {
+        font-size: 20px;
+        position: static;
+        top: 0;
+    }
+
+    footer {
+        height: 150px;
+        display: grid;
+        grid-template-areas:
+            "logo adress"
+            "parrafo parrafo";
+    }
+
+    footer img {
+        margin: 15px;
+    }
+
+    .footer-logo {
+        grid-area: logo;
+    }
+
+    .footer-parrafo {
+        grid-area: parrafo;
+    }
+
+    .footer-adress {
+        grid-area: adress;
+    }
+
+    footer p {
+        margin: 0px;
+    }
+
+    .formulario-info div iframe {
+        width: 350px;
+        height: 150px;
+    }
+
+    .formulario .formulario-coment textarea {
+        width: 350px;
+        height: 100px;
+    }
+
+
+    .contacto p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .descripcion iframe {
+        width: 400px;
+    }
+
+    .contacto p {
+        font-size: 20px;
+    }
+
+    .formulario label {
+        font-size: 15px;
+    }
+
+    .formulario input:not(.formulario-genero input) {
+        width: 300px;
+        height: 23px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .formulario-info div iframe {
+        width: 250px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .hero h1 {
+        font-size: 20px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .formulario-info div iframe {
+        width: 200px;
+        height: 150px;
+    }
+
+    .formulario .formulario-coment textarea {
+        width: 250px;
+        height: 100px;
+    }
+
+
+}
+
+@media screen and (max-width:468px) {
+
+    .formulario {
+        margin: 25px 25px 25px 25px;
+    }
+
+    .formulario-info {
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+    footer {
+        grid-template-areas: "logo"
+            "parrafo";
+        justify-items: center;
+
+    }
+
+    .footer-adress {
+        display: none;
+    }
+
+    .descripcion iframe {
+        width: 350px;
+        height: 280px;
+    }
+
+
+}
+
+@media screen and (max-width:432px) {}
+
+@media screen and (max-width:410px) {
+    .hero h1 {
+        font-size: 17px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+    .informate h1 {
+        font-size: 25px;
+    }
+
+    .informate h2 {
+        font-size: 25px;
+    }
+
+    .descripcion h2 {
+        font-size: 25px;
+    }
+
+    .descripcion h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .informate img {
+        width: 350px;
+    }
+
+    .descripcion img {
+        width: 350px;
+    }
+
+}
+
+@media screen and (max-width:390px) {
+    .descripcion iframe {
+        width: 300px;
+        height: 220px;
+    }
+
+    .formulario {
+        margin: 25px 10px 25px 10px;
+    }
+}
+
+@media screen and (max-width:362px) {
+    .informate img {
+        width: 300px;
+        height: 200px;
+
+    }
+
+    .descripcion img {
+        width: 300px;
+        height: 200px;
+    }
+}
